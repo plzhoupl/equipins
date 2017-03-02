@@ -1,0 +1,988 @@
+@charset "UTF-8";
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Microsoft Yahei';
+    color: #000;
+    font-size: 14px;
+    background-color: #F1F2F6;
+}
+
+h1, h2, h3, h4, h5, h6,strong {
+    font-weight: normal;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #05A775;
+    /*text-decoration: underline;*/
+}
+/*hr{*/
+    /*width: 94%;*/
+/*}*/
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+}
+/*导航  ====开始*/
+.hr_border{
+    width: 100%;
+    border: none;
+    border-top: 3px #00AB80 solid;
+    margin-bottom: 15px;
+}
+.header{
+    /*margin-bottom: 15px;*/
+    /*border-bottom:2px #009c52 solid;*/
+}
+.header-top{
+    background-color: #009c52;
+    color: #ffffff;
+    height: 35px;
+    line-height: 35px;
+}
+.header-top span{
+    width: 20px;
+    height: 19px;
+    margin-top: 6px;
+    background: url("../images/icon1.png") no-repeat top left;
+}
+.header-top a,.header-top a:hover{
+    color: #ffffff;
+}
+.header-nav{
+    /*height: 90px;*/
+}
+.header-nav div img{
+    margin-top: 8px;
+}
+.header-nav .nav li{
+    float:left;
+    padding-right: 50px;
+    margin-top: 60px;
+    color:#000;
+}
+.header-nav .nav li .hover{
+    border-bottom: 3px #00AC7E solid;
+}
+.header-nav .nav li .a{
+    height: 28px ;
+    line-height: 28px;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+}
+.header-nav .nav li
+.header-nav .left{
+    margin-top: 15px;
+}
+/*导航  =====结束*/
+.safe-bg{
+    width: 1180px;
+    height:40px;
+    line-height: 40px;
+    background-color: #ccc;
+    padding-left: 20px;
+    margin: 15px auto;
+}
+.safe-content{
+    border: 1px #CACBCD solid;
+    padding: 10px 0 200px 55px;
+    margin-bottom: 50px;
+}
+.safe-content ul li{
+    list-style:square;
+    margin-top: 15px;
+}
+.safe-content hr,.safe-body hr{
+    width: 1100px;
+    display: inline-block;
+    margin:25px auto 5px;
+    text-align: center;
+}
+/*首页   ======开始*/
+.login,.made{
+    height: 150px;
+    background-color: #fff;
+    border: 1px #E0E1E3 solid;
+    border-top: 8px #00AA80 solid;
+    padding: 32px 0;
+}
+.login{
+    width: 428px;
+    margin: 32px 13px 26px 0;
+}
+.made{
+    width: 755px;
+    margin: 32px 0 26px;
+}
+.login form input{
+    width: 190px;
+    height: 22px;
+}
+.login form li{
+    margin-bottom: 20px;
+}
+.login form li .submitBtn{
+    width: 252px;
+    height: 24px;
+    line-height: 24px;
+    color: #fff;
+    background-color: #00A980;
+    display: inline-block;
+}
+.login form li .forgetPwd{
+    color: #C3C3C3;
+    margin-left: 87px;
+}
+.login form li .register{
+    color: #FF5A00;
+    margin-right: 87px;
+}
+.made .span1{
+    width: 50px;
+    height: 70px;
+    display: inline-block;
+    background: url("../images/icon1.png") no-repeat 0 -32px;
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+.made .span2{
+    width: 50px;
+    height: 70px;
+    display: inline-block;
+    background: url("../images/icon1.png") no-repeat -54px -32px;
+    margin-top: 32px;
+    margin-right: 32px;
+}
+
+/*.made ul li dl{*/
+    /*margin: 20px 40px;*/
+/*}*/
+.made ul li dl dt{
+    width: 90px;
+    height: 90px;
+    /*display: inline-block;*/
+    background: url("../images/icon1.png") no-repeat 0 -102px;
+    margin: 20px 6px 0 135px;
+}
+.made ul li dl dd{
+    width: 400px;
+    margin: 20px 6px 0 12px;
+    text-align: left;
+}
+.made ul li dl dd h2{
+    color:#F25862 ;
+    margin-bottom: 6px;
+}
+.made ul li dl dd span{
+    color: #919191;
+    line-height: 20px;
+}
+
+/*theme ====开始*/
+.theme-left{
+    width: 510px;
+}
+.theme-right{
+    width: 460px;
+    padding-left: 60px;
+    border-left: 1px #9D9EA0 solid;
+}
+.theme-right ul{
+    width: 424px;
+}
+.theme ul{
+    border-bottom: 1px #9FA0A2 solid;
+    padding-bottom: 0px;
+}
+.theme .theme-left ul{
+    width: 640px;
+}
+.theme ul li a{
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    height: 32px;
+    line-height: 32px;
+    font-weight: 500;
+}
+.theme h2{
+    font-weight: 500;
+}
+.theme ul li span{
+    height: 32px;
+    line-height: 32px;
+    color: #fff;
+    display: inline-block;
+    background-color:#02A87A;
+    text-align: center;
+    border: 1px #9FA0A2 solid;
+    border-bottom: none;
+}
+.theme dl{
+    margin: 15px 0 30px;
+}
+.theme-left dl dd{
+    position: absolute;
+    margin-left: 286px;
+}
+.theme-left dl dd p{
+    width: 360px;
+}
+.theme-right dl dd p{
+    width: 424px;
+}
+.theme dl dd p{
+    color: #838486;
+    line-height: 22px;
+    margin-top: 8px;
+}
+.theme dl dd p a{
+    color:#1D9673;
+}
+.theme-right{
+    width: 400px;
+    margin-left: 202px;
+}
+.theme-right dl dd{
+    margin-top: 15px;
+}
+/*theme ====结束*/
+.path{
+    background-color: #00A980;
+    padding: 20px 0;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.path .hr0{
+    width: 560px;
+    border: none;
+    border-top: 2px #fff solid;
+    /*display: inline-block;*/
+    margin-top: 7px;
+    /*float: left;*/
+}
+.path ul:nth-child(2){
+    margin:20px 82px;
+}
+.path ul:nth-child(2) li:nth-child(even){
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.cooperate-company{
+    background-color: #fff;
+    padding: 20px;
+
+}
+.cooperate-company h2{
+    font-weight: 600;
+}
+.cooperate-company img{
+    margin: 15px 4px 20px;
+}
+/*首页   ======结束*/
+/*安全与保险 正文  ===开始*/
+.safe-body{
+    border: 1px #CACBCD solid;
+    padding: 10px 40px 35px;
+    margin-bottom: 50px;
+}
+.safe-body h2{
+    text-align: center;
+    margin:25px auto;
+}
+
+.safe-body span{
+    display: block;
+    text-align: center;
+    color: #C6C7C9;
+}
+.safe-body b{
+    /*position: relative;*/
+    display: block;
+    text-align: center;
+    margin: 15px 15px;
+}
+.safe-body p{
+    line-height: 25px;
+    margin: 12px 0;
+}
+.safe-body b i{
+    width: 26px;
+    height: 22px;
+    display: inline-block;
+    background: url("../images/icon1.png") no-repeat -32px 0;
+    position: absolute;
+    zoom: 0.8;
+}
+.safe-body img {
+    display: block;
+    margin: 40px auto 30px;
+}
+/*安全与保险 正文  ===结束*/
+
+/*页面底部  ===开始*/
+.footer-about{
+    /*color: #fff;*/
+    background-color: #16AE88;
+}
+.footer-about ul{
+    margin: 20px 70px;
+}
+/*.footer-about ul li>a:first-child{*/
+    /*color: #F96B07;*/
+/*}*/
+.footer-about ul li{
+    margin-bottom: 12px;
+}
+.footer-about ul li a{
+    color: #fff;
+}
+.footer-about .aboutjt a{
+    color: #FF6500;
+    padding-bottom:4px;
+    border-bottom:1px #A59FAB solid;
+    height: 25px;
+    line-height:25px;
+}
+.footer-about .footer-chat{
+    background-color: #1DB18D;
+    padding: 15px 65px 5px;
+}
+.footer-about .footer-chat p{
+    color: #FF6500;
+    margin-bottom: 10px;
+}
+.footer-copy{
+    color: #fff;
+    background-color: #00A980;
+    padding: 20px 0 30px;
+}
+.footer-copy p{
+    text-align: center;
+    margin-top: 15px;
+}
+.footer-copy img{
+    vertical-align: middle ;
+}
+/*页面底部  ===结束*/
+
+/*关于江泰======开始*/
+.about-all {
+    padding-bottom: 50px;
+    overflow: hidden
+}
+.left-nav {
+    width: 220px;
+    float: left;
+    background: #fff;
+    overflow: hidden
+}
+
+.left-nav li {
+    width: 218px;
+    height: 46px;
+    border: 1px solid #d2d2d2;
+    position: relative;
+    margin-bottom: -1px
+}
+
+.left-nav li a {
+    font-size: 18px;
+    font-family: 'Microsoft YaHei';
+    line-height: 46px;
+    margin-left: 12px
+}
+
+.left-nav li a:hover {
+    color: #05986C
+}
+
+.left-nav li:first-child {
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0
+}
+
+.left-nav li:last-child {
+    -moz-border-radius: 0 0 4px 4px;
+    -webkit-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+    margin: 0
+}
+
+.left-nav .active{
+    z-index: 1;
+    background: url(../images/active.png) no-repeat 180px center;
+}
+
+.left-nav .active a {
+    color: #09A276
+}
+.about-right {
+    min-height: 382px;
+    margin-left: 240px;
+    border: 1px solid #d2d2d2;
+    overflow: hidden;
+    background: #fff;
+    padding: 20px 30px
+}
+.about-right .tit {
+    position: relative;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    color: #565656
+}
+
+.about-right .tit i {
+    position: absolute;
+    top: 10px;
+    *top: 5px;
+    left: -20px;
+    width: 9px;
+    height: 9px;
+    font-size: 0;
+    overflow: hidden;
+    background-color: #009F70
+}
+.about-right>ul{
+    display:none;
+}
+.about-right>ul.active{
+    display:block;
+}
+.us-box {
+    padding:0 30px;
+}
+
+.us-box li {
+    padding: 20px 0;
+    border-bottom: 1px solid #d2d2d2
+}
+
+.us-box li p {
+    color: #6A6B6D;
+    line-height: 26px;
+    text-indent: 2em;
+    margin-top: 15px;
+}
+
+.us-box .noborder {
+    border: 0
+}
+.us-box span{
+    display: inline-block;
+    position: absolute;
+}
+.us-box img{
+    /*position: absolute;*/
+    margin-top: 5px;
+    margin-left:104px ;
+}
+.us-box li a{
+    width: 340px;
+    height: 46px;
+    line-height: 46px;
+    display: inline-block;
+    color: #fff;
+    background-color: #00A980;
+}
+#source-box li p{
+    margin-left:40px;
+    /*margin-bottom: 56px;*/
+}
+#source-box li p{
+    text-indent: 0;
+}
+#source-box span{
+    width:15px ;
+    height: 1658px;
+    display: block;
+    position: absolute;
+    background: url("../images/repeat.png") repeat-y;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+
+/*关于江涛======结束*/
+
+/*分公司联系方式*/
+.contract{
+    width: 1200px;
+    background-color: #fff;
+    padding:35px;
+    margin-top: 15px;
+}
+.contract hr{
+    width: 1200px;
+    border: none;
+    border-top: 1px #DBDBDB dashed;
+    margin: 20px 0 35px;
+}
+.contract span{
+    width: 5px;
+    height: 28px;
+    display: inline-block;
+    background-color: #32AE6F;
+    margin-top: 10px;
+}
+.contract b{
+    display: inline-block;
+    margin-top: 16px;
+    margin-left: 8px;
+    position: absolute;
+}
+.contract table,.contract table tr,.contract table td{
+    border: 1px #DBDBDB solid;
+}
+.contract table tbody tr,.contract table tbody td{
+    height: 38px;
+    line-height: 38px;
+    color: #566465;
+    padding-left: 10px;
+}
+.contract table thead{
+    background-color:#F7F9F8 ;
+}
+.contract table .th-organize,.contract table .th-mobile,.contract table .th-fax,.contract table .th-post,.contract table .th-address{
+    height: 48px;
+    line-height: 48px;
+    padding-left: 10px;
+}
+.contract table .th-organize,.contract table .th-fax{
+    width: 155px;
+}
+.contract table .th-mobile{
+    width: 240px;
+}
+.contract table .th-post{
+    width: 130px;
+}
+.contract table .th-address{
+    width: 435px;
+}
+
+/*忘记密码=====开始*/
+.nes {
+    FONT-SIZE: 14px; COLOR: #c00; LINE-HEIGHT: 30px
+}
+label {
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+}
+.content .mhd {
+    background: url(../images/mask-bg1.png) -9px -4px no-repeat;
+    width: 964px;
+    position: relative;
+    height: 45px
+}
+
+.content .mcont {
+    WIDTH: 964px;
+    HEIGHT: auto;
+    TEXT-ALIGN: center;
+    border: 1px #CCCCCC solid;
+}
+.main-cont-tit {
+    border-bottom: 1px #CDCDCD solid;
+}
+.content {
+    Z-INDEX: 444; MARGIN: 0px auto; WIDTH: 964px; HEIGHT: auto
+}
+.content .mhd .tit {
+    font-size: 16px;
+    left: 55px;
+    width: 900px;
+    color: #fff;
+    height: 45px;
+    line-height: 45px;
+    position: absolute;
+    font-weight: bold;
+    /*top: 19px;*/
+    text-align: left
+}
+.main-cont {
+    PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; MARGIN: 0px auto; WIDTH: 870px; PADDING-TOP: 10px
+}
+.cont-tab {
+    WIDTH: 870px
+}
+.cont-tab td{
+    PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 6px; VERTICAL-ALIGN: top; LINE-HEIGHT: 30px; PADDING-TOP: 6px
+}
+
+.cont-tab td.td1 {
+    FONT-SIZE: 14px; WIDTH: 265px; TEXT-ALIGN: right
+}
+.cont-tab td.td2 {
+    WIDTH: 266px
+}
+.cont-tab td.td3 {
+    WIDTH: auto
+}
+.main-cont-tit {
+    BACKGROUND-POSITION: 0px 0px; MARGIN: 20px 0px; TEXT-INDENT: 15px; LINE-HEIGHT: 30px; POSITION: relative; HEIGHT: 30px; TEXT-ALIGN: left
+}
+.main-cont-tit h2 {
+    FONT-SIZE: 14px; FLOAT: left;LINE-HEIGHT: 30px;
+    font-weight: normal;
+}
+.main-cont-tit a {
+    FONT-WEIGHT: normal
+}
+.onShow
+{
+    background:url(../images/onShow.gif) no-repeat;
+    padding-left:25px;
+    font-size: 12px;
+    line-height:22px;
+    vertical-align:middle;
+}
+.onFocus
+{
+    background:#E9F0FF url(../images/onFocus.gif) no-repeat;
+    padding-left:25px;
+    font-size: 12px;
+    line-height:22px;
+    vertical-align:middle;
+}
+.onError
+{
+    background:#FFF2E9 url(../images/onError.gif) no-repeat;
+    padding-left:25px;
+    font-size: 12px;
+    line-height:22px;
+    vertical-align:middle;
+}
+.onCorrect
+{
+    background:#E9FFEB url(../images/onCorrect.gif) no-repeat;
+    padding-left:25px;
+    font-size: 12px;
+    line-height:22px;
+    vertical-align:middle;
+}
+/*忘记密码=====结束*/
+
+/*底部标签页面跳转=====开始*/
+.pages {
+    /*float: right;*/
+    /*margin-bottom: 40px;*/
+    margin-left: -22px;
+    margin-top: 120px;
+}
+.pages #Pagination {
+    float: left;
+    overflow: hidden;
+}
+.pages #Pagination .pagination {
+    height: 40px;
+    text-align: right;
+    font-family: \u5b8b\u4f53,Arial;
+}
+.pages #Pagination .pagination a,
+.pages #Pagination .pagination span {
+    float: left;
+    display: inline;
+    padding: 8px 13px;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    color: #00A980;
+    font-family: \u5b8b\u4f53,Arial;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.pages #Pagination .pagination .current {
+    background: #00A980;
+    color: #fff;
+}
+.pages #Pagination .pagination .next {
+    float: left;
+    padding: 8px 13px;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    color: #00A980;
+    cursor: pointer;
+}
+.pages #Pagination .pagination .pagination-break {
+    padding: 11px 5px;
+    border: none;
+    border-left: 1px solid #e6e6e6;
+    background: none;
+    cursor: default;
+}
+.pages .searchPage {
+    float: left;
+    padding: 4px 0;
+}
+.pages .searchPage .page-sum {
+    padding: 11px 13px;
+    font-family: \u5b8b\u4f53,Arial;
+    font-size: 14px;
+}
+.pages .searchPage .page-go {
+    padding: 8px 0;
+    font-family: \u5b8b\u4f53,Arial;
+    font-size: 14px;
+    padding: 10px 0\9;
+    *padding: 6px 0;
+}
+.pages .searchPage .page-go input {
+    width: 38px;
+    height: 20px;
+    margin: 0 5px;
+    padding-left: 5px;
+    border: 1px solid #e4e4e4;
+}
+.pages .searchPage .page-btn {
+    margin: 9px 0 5px 5px;
+    padding:3px 8px;
+    background-color: #fff;
+    border: 1px #C4C4C4 solid;
+    border-radius: 2px;
+    color: #000;
+    font-family: Arial, 'Microsoft YaHei';
+    font-size: 14px;
+    text-decoration: none;
+}
+.fixed:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden
+}
+/*底部标签页面跳转=====结束*/
+
+/*form开始*/
+.mask-box,.mask-box1 {
+    position: absolute;
+    width:1100px;
+    height:640px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #fff;
+    opacity: 1;
+    z-index: 1000;
+    resize: both;
+    overflow: auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+/*.mask-box1{*/
+    /*height: 770px;*/
+/*}*/
+.mask-close {
+    position: absolute;
+    top: 16px;
+    right: 18px;
+    width: 10px;
+    line-height: 10px;
+    height: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 100;
+}
+.mask1,.mask2,.mask3,.mask4{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1001;
+    display: none;
+    background-color: #000;
+    -moz-opacity: .6;
+    filter: alpha(opacity=60);
+    background: rgba(0,0,0,0.6);
+}
+
+.mask {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background: rgba(0, 0, 0, .6);
+    display: none;
+}
+.page hr {
+    width: 1000px;
+    margin: 20px auto 8px;
+}
+
+.newPage {
+    width: 1000px;
+    border: 1px #ccc solid;
+    margin: 0 auto;
+}
+
+.progress {
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    margin: 80px 0
+}
+
+.progress span {
+    width: 200px;
+    height: 20px;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    font: bold 14px/20px "SimSun"
+}
+
+.progress p.top span {
+    color: #fff;
+    background: url(../images/p02.jpg) no-repeat
+}
+
+.progress p.top span.active {
+    background: url(../images/p01.jpg) no-repeat
+}
+
+.progress p.bto span {
+    color: #ccc;
+    font-weight: inherit
+}
+
+.progress p.bto span.active {
+    color: #00a980
+}
+
+.user_types {
+    height: auto;
+    overflow: hidden;
+    padding-left: 334px;
+    position: relative
+}
+
+.ul01 .get-code {
+    width: 110px;
+    height: 42px;
+    text-align: center;
+    border: 1px #d6d6d6 solid;
+    background-color: #ccc;
+    color: #fff;
+    cursor: pointer;
+    padding: 6px;
+    margin-left: 5px;
+}
+
+.ul01 li {
+    height: 40px;
+    overflow: hidden;
+    padding:0 0 20px 24px;
+    font: 18px/40px "microsoft yahei";
+    color: #515151;
+    position: relative;
+    text-align: left;
+}
+.ul01 li b{
+    display: inline-block;
+    margin-left: 30px;
+}
+.ul01 li i {
+    background: url(../images/icon.png) no-repeat 0 -193px;
+    width: 16px;
+    height: 16px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 13px;
+}
+
+.ul01 li i.active {
+    background: url(../images/icon.png) no-repeat 0 -172px
+}
+
+.ul01 li span {
+    height: 20px;
+    display: inline-block;
+    font: 12px/20px "SimSun";
+    color: #a60000;
+    display: inline-block;
+    position: absolute;
+    left: 106px;
+    top: 40px;
+    display: none
+}
+
+.ul01 li input {
+    height: 38px;
+    border: 1px solid #a8a8a8;
+    background: #fff;
+    width: 240px;
+    text-indent: 10px;
+    /*margin-right: 20px;*/
+}
+
+.ul01 .getCode input {
+    width: 128px
+}
+
+.sub01 {
+    height: auto;
+    overflow: hidden;
+    margin: 50px 0;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.sub01 a {
+    width: 240px;
+    height: 38px;
+    overflow: hidden;
+    background: #00a980;
+    color: #fff;
+    line-height: 38px;
+    text-align: center;
+    font: bold 20px/40px "SimSun";
+    border: 0;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 26px;
+}
+.sub01 a:hover{
+    color: #ffffff;
+}
+
+.page .point {
+    background: url(../images/mask-bg.png) -2px -5px no-repeat;
+    position: relative;
+    height: 45px;
+}
+.page .point h2 {
+    font-size: 16px;
+    left: 25px;
+    width: 900px;
+    color: #fff;
+    height: 45px;
+    line-height: 45px;
+    position: absolute;
+    text-align: left
+}
+/*form结束*/
